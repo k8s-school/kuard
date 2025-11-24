@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kubernetes-up-and-running/kuard/pkg/memq"
+	"github.com/k8s-school/kuard/pkg/memq"
 )
 
 var ErrEmptyQueue = errors.New("empty queue")

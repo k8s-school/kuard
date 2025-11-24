@@ -23,7 +23,7 @@ import (
 	"strconv"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/kubernetes-up-and-running/kuard/pkg/apiutils"
+	"github.com/k8s-school/kuard/pkg/apiutils"
 )
 
 type MemoryAPI struct {

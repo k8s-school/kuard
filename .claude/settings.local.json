@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(make:*)",
+      "Bash(go mod:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -29,10 +29,10 @@ MAKEFLAGS += --no-builtin-rules
 .SUFFIXES:
 
 # Golang package.
-PKG := github.com/kubernetes-up-and-running/kuard
+PKG := github.com/k8s-school/kuard
 
 # Registry to push to.
-REGISTRY ?= gcr.io/kuar-demo
+REGISTRY ?= "k8sschool"
 
 # For demo purposes, we want to build multiple versions.  They will all be
 # mostly the same but will let us demonstrate rollouts.

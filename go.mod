@@ -1,4 +1,4 @@
-module github.com/kubernetes-up-and-running/kuard
+module github.com/k8s-school/kuard
 
 go 1.12
 
