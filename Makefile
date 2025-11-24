@@ -48,7 +48,8 @@ export VERBOSE ?= 0
 # Default architecture to build for.
 ARCH ?= amd64
 
-ALL_ARCH := amd64 arm arm64 ppc64le
+# ALL_ARCH := amd64 arm arm64 ppc64le
+ALL_ARCH := amd64
 # Set default base image dynamically for each arch
 ifeq ($(ARCH),amd64)
 	BASEIMAGE?=alpine
